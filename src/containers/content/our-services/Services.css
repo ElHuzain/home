@@ -1,0 +1,18 @@
+#our-services .section-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: var(--spacing-1);
+    /* grid-auto-flow: dense; */
+}
+
+@media only screen and (max-width: 920px) {
+    #our-services .section-content {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #our-services .section-content {
+        grid-template-columns: 1fr;
+    }
+}

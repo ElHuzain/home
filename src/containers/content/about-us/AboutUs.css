@@ -1,0 +1,10 @@
+#about-us .section-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#about-us .section-content h1 {
+    font-size: var(--fs-regular-2);
+    font-weight: var(--fw-bold);
+}

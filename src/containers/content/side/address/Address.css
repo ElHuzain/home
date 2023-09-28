@@ -1,0 +1,8 @@
+.address-button {
+    display: flex;
+    gap: 5px;
+}
+
+.address-button {
+    color: blue !important;
+}

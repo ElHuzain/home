@@ -1,0 +1,42 @@
+main {
+    display: flex;
+    column-gap: var(--spacing-1);
+    padding: 0 var(--section-padding);
+    position: relative;
+}
+
+main > div {
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--spacing-1);
+    width: 100%;
+}
+
+aside {
+    position: sticky;
+    top: var(--spacing-1);
+    height: fit-content;
+    /* width: 300px; */
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-1);
+}
+
+@media only screen and (max-width: 700px) {
+    aside {
+        position: absolute;
+        inset: -50%;
+        width: 25%;
+    }
+
+    #side-nav {
+        position: fixed !important;
+        bottom: 0;
+        width: 100% !important;
+        left: 50%;
+        padding: var(--spacing-1) !important;
+        transform: translateX(-50%);
+        background-color: var(--background-clr);
+        /* width: 25% !important; */
+    }
+}
