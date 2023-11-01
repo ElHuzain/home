@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/office-landing-page/static/css/main.df21fc05.css",
-    "main.js": "/office-landing-page/static/js/main.14224d1d.js",
+    "main.js": "/office-landing-page/static/js/main.f62a4e05.js",
     "static/media/2.jpg": "/office-landing-page/static/media/2.99d2a150980aac82cf1e.jpg",
     "static/media/Villa.jpeg": "/office-landing-page/static/media/Villa.1f248c8e108721101ed6.jpeg",
     "static/media/6.jpg": "/office-landing-page/static/media/6.0599cefd4ae684b8e637.jpg",
@@ -14,10 +14,10 @@
     "static/media/8.jpg": "/office-landing-page/static/media/8.3c20d4701dbbe8e1b8ec.jpg",
     "index.html": "/office-landing-page/index.html",
     "main.df21fc05.css.map": "/office-landing-page/static/css/main.df21fc05.css.map",
-    "main.14224d1d.js.map": "/office-landing-page/static/js/main.14224d1d.js.map"
+    "main.f62a4e05.js.map": "/office-landing-page/static/js/main.f62a4e05.js.map"
   },
   "entrypoints": [
     "static/css/main.df21fc05.css",
-    "static/js/main.14224d1d.js"
+    "static/js/main.f62a4e05.js"
   ]
 }
