@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/office-landing-page/static/css/main.df21fc05.css",
-    "main.js": "/office-landing-page/static/js/main.f62a4e05.js",
+    "main.css": "/office-landing-page/static/css/main.9c236ba8.css",
+    "main.js": "/office-landing-page/static/js/main.ed607293.js",
+    "static/media/KodoRestaurant2.jpg": "/office-landing-page/static/media/KodoRestaurant2.de6838cf04d74d4e9c1f.jpg",
     "static/media/2.jpg": "/office-landing-page/static/media/2.99d2a150980aac82cf1e.jpg",
     "static/media/Villa.jpeg": "/office-landing-page/static/media/Villa.1f248c8e108721101ed6.jpeg",
     "static/media/6.jpg": "/office-landing-page/static/media/6.0599cefd4ae684b8e637.jpg",
@@ -9,15 +10,14 @@
     "static/media/4.jpg": "/office-landing-page/static/media/4.830e2410701fdb45036e.jpg",
     "static/media/5.jpg": "/office-landing-page/static/media/5.7780c99b50667cdb8034.jpg",
     "static/media/7.jpg": "/office-landing-page/static/media/7.902e7906c488a33c66ff.jpg",
-    "static/media/KodoRestaurant.jpeg": "/office-landing-page/static/media/KodoRestaurant.0058f3f5047c6974f86b.jpeg",
     "static/media/1.jpg": "/office-landing-page/static/media/1.51b357e460dc4f3d66fe.jpg",
     "static/media/8.jpg": "/office-landing-page/static/media/8.3c20d4701dbbe8e1b8ec.jpg",
     "index.html": "/office-landing-page/index.html",
-    "main.df21fc05.css.map": "/office-landing-page/static/css/main.df21fc05.css.map",
-    "main.f62a4e05.js.map": "/office-landing-page/static/js/main.f62a4e05.js.map"
+    "main.9c236ba8.css.map": "/office-landing-page/static/css/main.9c236ba8.css.map",
+    "main.ed607293.js.map": "/office-landing-page/static/js/main.ed607293.js.map"
   },
   "entrypoints": [
-    "static/css/main.df21fc05.css",
-    "static/js/main.f62a4e05.js"
+    "static/css/main.9c236ba8.css",
+    "static/js/main.ed607293.js"
   ]
 }
