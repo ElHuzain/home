@@ -2,6 +2,7 @@ import './Project.css'
 import { MdLocationPin, MdDateRange } from 'react-icons/md'
 import { FaLocationDot } from 'react-icons/fa6';
 import { RxDimensions } from 'react-icons/rx'
+import { BsFillPersonFill } from 'react-icons/bs'
 import { useState } from 'react';
 
 const Specification = (props) => {
@@ -29,11 +30,10 @@ const Specification = (props) => {
 const Project = (props) => {
   const [Hovered, setHover] = useState(false);
 
-  function handleHover(event) {
-    console.log("Hovering");
+  function handleHover() {
     setHover(true);
   }
-  function handleNOTHover(event) {
+  function handleNOTHover() {
     setHover(false);
   }
 
@@ -46,6 +46,7 @@ const Project = (props) => {
             <h1>{props.title}</h1>
             <div style={props.LangAlignment} className="project__specifications">
               <Specification LangAlignment={props.LangAlignment} icon={<FaLocationDot />} value={props.location} />
+              <Specification LangAlignment={props.LangAlignment} icon={<BsFillPersonFill />} value={props.by} />
               {/* <Specification LangAlignment={props.LangAlignment} icon={<RxDimensions />} value={props.scope} /> */}
               {/* <Specification LangAlignment={props.LangAlignment} icon={<MdDateRange />} value={props.date} /> */}
             </div>

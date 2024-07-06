@@ -10,7 +10,7 @@ const Footer = () => {
       <p className="address">تبوك - طريق الأمير عبدالمجيد - مقابل أمانة تبوك</p>
       <div className="contacts">
         <p><BsTelephone/> 0509255539</p>
-        <p><BsTelephone/> 0538725276</p>
+        <p><BsTelephone/> 0508122303</p>
         <a href="mailto:"><MdEmail/> mokhatathades@gmail.com</a>
         <a href="https://www.snapchat.com/add/eng.mo2023"><BiLogoSnapchat/> @eng.mo23</a>
       </div>
@@ -25,8 +25,7 @@ const Footer = () => {
       </nav>
         <p className="rights">
         All Rights Reserved 2023<br/>
-      Modern Scheme Engineering
-Consulting Company
+      Modern Plan for Engineering Consultancy
         </p>
     </footer>
   )

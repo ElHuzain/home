@@ -5,7 +5,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 // Contacts
 import { BsWhatsapp, BsTelephone } from 'react-icons/bs'
 import { MdEmail, MdLocationOn } from 'react-icons/md';
-import { BiLogoSnapchat } from 'react-icons/bi'
+import { BiLogoSnapchat, BiLogoTiktok } from 'react-icons/bi'
 
 // Navbar
 import { AiOutlineQuestionCircle, AiOutlineTeam, AiOutlineFundProjectionScreen } from 'react-icons/ai';
@@ -29,15 +29,15 @@ import I2 from '../images/2.jpg';
 import I3 from '../images/3.jpg';
 import I41 from '../images/4.jpg';
 import I42 from '../images/6.jpg';
-import I5 from '../images/5.jpg';
+import I5 from '../images/KodoRestaurant2.jpg';
 import I6 from '../images/7.jpg';
-import I7 from '../images/8.jpg';
+import I7 from '../images/Villa.jpeg';
 const ArabicContext = {
     Header: {
         Language: 'العربية'
     },
     Hero: {
-        Name: 'مكتب المخطط الحديث الإستشاري',
+        Name: 'مكتب المخطط الحديث للاستشارات الهندسية',
         Title: 'بناء المستقبل برؤية فنية في المملكة العربية السعودية',
         Icon: <LiaCheckCircleSolid size="35" />,
         Elements: [
@@ -63,7 +63,7 @@ const ArabicContext = {
                 Icon: <BsWhatsapp className="contact-btn" color="var(--primary-text-clr)" size="25" />,
                 Color: 'green',
                 Value: '0508122303',
-                Href: "//api.whatsapp.com/send?phone=201126798092&text=Hello"
+                Href: "//api.whatsapp.com/send?phone=9660508122303&text=Hello"
             },
             {
                 Title: 'الإيميل',
@@ -75,9 +75,16 @@ const ArabicContext = {
             {
                 Title: 'سناب شات',
                 Icon: <BiLogoSnapchat className="contact-btn" color="var(--primary-text-clr)" size="25" />,
-                Value: 'mo2023',
+                Value: '@eng.mo2023',
                 Color: 'yellow',
                 Href: 'https://www.snapchat.com/add/eng.mo2023'
+            },
+            {
+                Title: 'تيك توك',
+                Icon: <BiLogoTiktok className="contact-btn" color="var(--primary-text-clr)" size="25" />,
+                Value: 'eng.mo2023',
+                Color: 'yellow',
+                Href: 'https://www.tiktok.com/@eng.mo2023'
             },
         ]
     },
@@ -168,18 +175,20 @@ const ArabicContext = {
         OurProjects: {
             Title: 'مشاريعنا',
             Elements: [
-                {
-                    MainImage: I1,
-                    Title: 'فيلا كود وادي حنيفة',
-                    Location: 'السعودية، الرياض',
+                // {
+                    // MainImage: I1,
+                    // Title: 'فيلا كود وادي حنيفة',
+                    // Location: 'السعودية، الرياض',
+                    // By: "الإستشاري مهندس محمد حُزين"
                     // Date: '11/12/3',
                     // Images: '',
                     // Sketches: '',
-                },
+                // },
                 {
                     MainImage: I2,
                     Title: 'مسابقة فرع وزارة الاوقاف',
                     Location: 'السعودية، مكة',
+                    By: "الإستشاري مهندس محمد حُزين"
                     // Scope: 'Scope',
                     // Date: '11/12/3',
                     // Images: '',
@@ -189,24 +198,27 @@ const ArabicContext = {
                     MainImage: I3,
                     Title: 'فيلا سكنية',
                     Location: 'السعودية، الرياض',
+                    By: "الإستشاري مهندس محمد حُزين"
                     // Scope: 'Scope',
                     // Date: '11/12/3',
                     // Images: '',
                     // Sketches: '',
                 },
-                {
-                    MainImage: I41,
-                    Title: 'عمارة مكاتب',
-                    Location: 'السعودية، الخبر',
+                // {
+                    // MainImage: I41,
+                    // Title: 'عمارة مكاتب',
+                    // Location: 'السعودية، الخبر',
+                    // By: "الإستشاري مهندس محمد حُزين"
                     // Scope: 'Scope',
                     // Date: '11/12/3',
                     // Images: I42,
                     // Sketches: '',
-                },
+                // },
                 {
                     MainImage: I5,
-                    Title: 'فيلا سكنية',
-                    Location: 'السعودية، الرياض',
+                    Title: 'مطعم كودو',
+                    Location: 'السعودية، تبوك',
+                    By: "الإستشاري مهندس محمد حُزين"
                     // Scope: 'Scope',
                     // Date: '11/12/3',
                     // Images: '',
@@ -216,6 +228,7 @@ const ArabicContext = {
                     MainImage: I6,
                     Title: 'مسجد 300 مصلي',
                     Location: 'حي حطين',
+                    By: "الإستشاري مهندس محمد حُزين"
                     // Scope: 'Scope',
                     // Date: '11/12/3',
                     // Images: '',
@@ -223,8 +236,9 @@ const ArabicContext = {
                 },
                 {
                     MainImage: I7,
-                    Title: 'فيلا سكنية',
-                    Location: 'الرياض',
+                    Title: 'سوق محلات تجارية',
+                    Location: 'السعودية، تبوك',
+                    By: "الإستشاري مهندس محمد حُزين"
                     // Scope: 'Scope',
                     // Date: '11/12/3',
                     // Images: '',
@@ -237,10 +251,10 @@ const ArabicContext = {
             Elements: [
                 {
                     Name: 'المهندس محمد حزين مصطفى',
-                    Rule: 'مدير المشروع',
+                    Rule: 'مدير المشاريع',
                 },
                 {
-                    Name: 'المهندس أحمد العطية',
+                    Name: 'المهندس أحمد العطوي',
                     Rule: 'مدير المكتب',
                 },
                 {
@@ -262,7 +276,7 @@ const EnglishContext = {
         Language: 'Arabic'
     },
     Hero: {
-        Name: 'MODERN PLAN ENGINEERING CONSULTANCY',
+        Name: 'Modern Plan for Engineering Consultancy',
         Title: 'Building the Future with an Artistic Vision in the Kingdom of Saudi Arabia',
         Icon: <LiaCheckCircleSolid size="35" />,
         Elements: [
@@ -288,7 +302,7 @@ const EnglishContext = {
                 Icon: <BsWhatsapp className="contact-btn" color="var(--primary-text-clr)" size="25" />,
                 Color: 'green',
                 Value: '0508122303',
-                Href: "//api.whatsapp.com/send?phone=201126798092&text=Hello"
+                Href: "//api.whatsapp.com/send?phone=9660508122303&text=Hello"
             },
             {
                 Title: 'Email',
@@ -300,9 +314,16 @@ const EnglishContext = {
             {
                 Title: 'Snapchat',
                 Icon: <BiLogoSnapchat className="contact-btn" color="var(--primary-text-clr)" size="25" />,
-                Value: 'mo2023',
+                Value: 'eng.mo2023',
                 Color: 'yellow',
-                Href: 'https://www.snapchat.com/add/mo2023'
+                Href: 'https://www.snapchat.com/add/eng.mo2023'
+            },
+            {
+                Title: 'TikTok',
+                Icon: <BiLogoTiktok className="contact-btn" color="var(--primary-text-clr)" size="25" />,
+                Value: 'eng.mo2023',
+                Color: 'yellow',
+                Href: 'https://www.tiktok.com/@eng.mo2023'
             },
         ]
     },
@@ -316,22 +337,22 @@ const EnglishContext = {
         Elements: [
             {
                 Title: 'About',
-                Icon: <AiOutlineQuestionCircle className="contact-btn" color="var(--primary-text-clr)" size="25"/>,
+                Icon: <AiOutlineQuestionCircle className="contact-btn" color="var(--primary-text-clr)" size="25" />,
                 Href: 'about-us',
             },
             {
                 Title: 'Services',
-                Icon: <MdOutlineDesignServices className="contact-btn" color="var(--primary-text-clr)" size="25"/>,
+                Icon: <MdOutlineDesignServices className="contact-btn" color="var(--primary-text-clr)" size="25" />,
                 Href: 'our-services'
             },
             {
                 Title: 'Projects',
-                Icon: <AiOutlineFundProjectionScreen className="contact-btn" color="var(--primary-text-clr)" size="25"/>,
+                Icon: <AiOutlineFundProjectionScreen className="contact-btn" color="var(--primary-text-clr)" size="25" />,
                 Href: 'our-projects'
             },
             {
                 Title: 'Departments',
-                Icon: <AiOutlineTeam className="contact-btn" color="var(--primary-text-clr)" size="25"/>,
+                Icon: <AiOutlineTeam className="contact-btn" color="var(--primary-text-clr)" size="25" />,
                 Href: 'our-team'
             }
         ],
@@ -397,18 +418,20 @@ const EnglishContext = {
         OurProjects: {
             Title: 'Our Projects',
             Elements: [
-                {
-                    MainImage: I1,
-                    Title: 'Villa Code Wadi Hanifa',
-                    Location: 'Riyadh, Saudi Arabia',
+                // {
+                    // MainImage: I1,
+                    // Title: 'Villa Code Wadi Hanifa',
+                    // Location: 'Riyadh, Saudi Arabia',
+                    // By: "Consultant Eng. Mohammed Huzain"
                     // Date: '11/12/3',
                     // Images: '',
                     // Sketches: '',
-                },
+                // },
                 {
                     MainImage: I2,
                     Title: 'Competition of the Ministry of Awqaf Branch',
                     Location: 'Mecca, Saudi Arabia',
+                    By: "Consultant Eng. Mohammed Huzain"
                     // Scope: 'Scope',
                     // Date: '11/12/3',
                     // Images: '',
@@ -418,24 +441,27 @@ const EnglishContext = {
                     MainImage: I3,
                     Title: 'Resedential Villa',
                     Location: 'Riyadh, Saudi Arabia',
+                    By: "Consultant Eng. Mohammed Huzain"
                     // Scope: 'Scope',
                     // Date: '11/12/3',
                     // Images: '',
                     // Sketches: '',
                 },
-                {
-                    MainImage: I41,
-                    Title: 'Office Building',
-                    Location: 'Al-Khobar, Saudi Arabia',
+                // {
+                    // MainImage: I41,
+                    // Title: 'Office Building',
+                    // Location: 'Al-Khobar, Saudi Arabia',
+                    // By: "Consultant Eng. Mohammed Huzain"
                     // Scope: 'Scope',
                     // Date: '11/12/3',
                     // Images: I42,
                     // Sketches: '',
-                },
+                // },
                 {
                     MainImage: I5,
-                    Title: 'Resedential Villa',
-                    Location: 'Riyadh, Saudi Arabia',
+                    Title: 'Kudo Restaurant',
+                    Location: 'Tabuk, Saudi Arabia',
+                    By: "Consultant Eng. Mohammed Huzain"
                     // Scope: 'Scope',
                     // Date: '11/12/3',
                     // Images: '',
@@ -445,6 +471,7 @@ const EnglishContext = {
                     MainImage: I6,
                     Title: '300-Prayer Mosque',
                     Location: 'Hottein district',
+                    By: "Consultant Eng. Mohammed Huzain"
                     // Scope: 'Scope',
                     // Date: '11/12/3',
                     // Images: '',
@@ -452,8 +479,9 @@ const EnglishContext = {
                 },
                 {
                     MainImage: I7,
-                    Title: 'Resedential Villa',
-                    Location: 'Riyadh',
+                    Title: 'Commercial Market',
+                    Location: 'Saudi Arabia, Tabuk',
+                    By: "Consultant Eng. Mohammed Huzain"
                     // Scope: 'Scope',
                     // Date: '11/12/3',
                     // Images: '',
@@ -469,7 +497,7 @@ const EnglishContext = {
                     Rule: 'Project Manager',
                 },
                 {
-                    Name: 'Eng. Ahmed Al-Attia',
+                    Name: 'Eng. Ahmed Al-Attawi',
                     Rule: 'Office Manager',
                 },
                 {

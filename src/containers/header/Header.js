@@ -21,8 +21,8 @@ const Header = (props) => {
     <header>
     <nav className="">
       <div className="logo-container">
-        <h1>MODERN PLAN</h1>
-        <h1 className=""><span>ENGINEERING</span> <span>CONSULTANCY</span></h1>
+        <h1>Modern Plan for</h1>
+        <h1 className=""><span>Engineering</span> <span>Consultancy</span></h1>
       </div>
       <ul className="flex-row">
 

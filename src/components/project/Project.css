@@ -47,10 +47,8 @@
 }
 
 .project .project-context {
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0),
-        rgba(0, 0, 0, 0.7)
-    );
+    background-image: linear-gradient(rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0.7));
     font-weight: bold;
     color: white;
     position: absolute;
@@ -60,7 +58,7 @@
     transition: top, bottom .3s ease-in-out;
 }
 
-.project .project-context .inside-project-context{
+.project .project-context .inside-project-context {
     padding: 1rem;
 }
 
@@ -68,7 +66,7 @@
     bottom: 0%;
 }
 
-.project .project__specifications > div {
+.project .project__specifications>div {
     display: flex;
     gap: .5rem;
 }

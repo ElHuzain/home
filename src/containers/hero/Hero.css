@@ -12,6 +12,8 @@
     color: white;
     max-height: 570px;
     overflow: hidden;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
 }
 
 .hero .image-container ul {
@@ -39,6 +41,11 @@
     gap: 1rem;
 }
 
+.mySwiper {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .hero .image-container ul li:hover {
     background-color: black;
     cursor: pointer;
@@ -46,12 +53,16 @@
 
 .hero .image-container .img-list {
     display: flex;
+    max-width: 100%;
     width: 100%;
+    position: relative;
 }
 
 .hero .image-container .img-list img {
     /* height: 570px; */
     width: 100%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: cover;
     transition: opacity ease-in-out .3s;
 }
