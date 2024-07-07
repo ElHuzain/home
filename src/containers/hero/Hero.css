@@ -10,7 +10,6 @@
     display: flex;
     position: relative;
     color: white;
-    max-height: 670px;
     overflow: hidden;
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);

@@ -1,9 +1,8 @@
 import './Hero.css';
 import Header from '../header/Header';
-import I3 from '../../assets/images/1.jpg'
 import I2 from "../../assets/images/2.jpg"
 import I1 from '../../assets/images/3.jpg'
-import I4 from "../../assets/images/5.jpg"
+import I4 from "../../assets/images/Villa.jpeg"
 import I5 from "../../assets/images/7.jpg"
 import I6 from "../../assets/images/KodoRestaurant2.jpg"
 import { useEffect, useState } from 'react';
@@ -19,7 +18,7 @@ const SlideNext = () => {
   useEffect(() => {
     setInterval(() => {
       Swiper.slideNext(1000);
-    }, 3500)
+    }, 500)
   }, []);
 
   return <div></div>
@@ -41,15 +40,29 @@ const Hero = (props) => {
       <div className="hero">
 
         <div className="hero-container">
-          <div style={{width: "100%"}} className="image-container">
+          <div style={{ width: "100%" }} className="image-container">
             <div className="img-list">
-              <SwiperParent style={{width: "100%", zIndex: -1}} pagination={true} loop={true} className="mySwiper">
-                <SwiperSlide><img style={{height: "100%"}} alt="" src={I1} /> </SwiperSlide>
-                <SwiperSlide><img style={{height: "100%"}} alt="" src={I2} /> </SwiperSlide>
-                <SwiperSlide><img style={{height: "100%"}} alt="" src={I3} /> </SwiperSlide>
-                <SwiperSlide><img style={{height: "100%"}} alt="" src={I4} /> </SwiperSlide>
-                <SwiperSlide><img style={{height: "100%"}} alt="" src={I5} /> </SwiperSlide>
-                <SwiperSlide><img style={{height: "100%"}} alt="" src={I6} /> </SwiperSlide>
+              <SwiperParent style={{ width: "100%", zIndex: -1 }} pagination={true} loop={true} className="mySwiper">
+                <SwiperSlide style={{ display: "flex"}}>
+                  <img style={{ width: "100%", objectFit: "cover", borderRadius: "var(--border-radius)", marginBottom: "auto", marginTop: "auto", height: "100%" }} alt="" src={I1} />
+                </SwiperSlide>
+                <SwiperSlide style={{ display: "flex"}}>
+                  <img style={{ width: "100%", objectFit: "cover", marginBottom: "auto", marginTop: "auto", height: "100%" }} alt="" src={I2} />
+                  {/* <img style={{height: "100%"}} alt="" src={I2} /> */}
+                </SwiperSlide>
+                <SwiperSlide style={{ display: "flex"}}>
+                  <img style={{ width: "100%", objectFit: "cover", marginBottom: "auto", marginTop: "auto", height: "100%" }} alt="" src={I5} />
+                  {/* <img style={{height: "100%"}} alt="" src={I5} /> */}
+                </SwiperSlide>
+                <SwiperSlide style={{ display: "flex"}}>
+                  <img style={{ width: "100%", objectFit: "cover", marginBottom: "auto", marginTop: "auto", height: "100%" }} alt="" src={I6} />
+                  {/* <img style={{height: "100%"}} alt="" src={I6} /> */}
+                </SwiperSlide>
+                <SwiperSlide style={{ display: "flex"}}>
+                  <img style={{ width: "100%", objectFit: "cover", marginBottom: "auto", marginTop: "auto", height: "100%" }} alt="" src={I4} />
+                  {/* <img style={{height: "100%"}} alt="" src={I4} /> */}
+                </SwiperSlide>
+
                 <SlideNext />
               </SwiperParent>
             </div>
