@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/office-landing-page/static/css/main.68a33174.css",
-    "main.js": "/office-landing-page/static/js/main.1ba33b3c.js",
+    "main.js": "/office-landing-page/static/js/main.a16603f7.js",
     "static/media/KodoRestaurant2.jpg": "/office-landing-page/static/media/KodoRestaurant2.de6838cf04d74d4e9c1f.jpg",
     "static/media/2.jpg": "/office-landing-page/static/media/2.99d2a150980aac82cf1e.jpg",
     "static/media/Villa.jpeg": "/office-landing-page/static/media/Villa.1f248c8e108721101ed6.jpeg",
@@ -14,10 +14,10 @@
     "static/media/8.jpg": "/office-landing-page/static/media/8.3c20d4701dbbe8e1b8ec.jpg",
     "index.html": "/office-landing-page/index.html",
     "main.68a33174.css.map": "/office-landing-page/static/css/main.68a33174.css.map",
-    "main.1ba33b3c.js.map": "/office-landing-page/static/js/main.1ba33b3c.js.map"
+    "main.a16603f7.js.map": "/office-landing-page/static/js/main.a16603f7.js.map"
   },
   "entrypoints": [
     "static/css/main.68a33174.css",
-    "static/js/main.1ba33b3c.js"
+    "static/js/main.a16603f7.js"
   ]
 }
