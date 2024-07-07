@@ -18,7 +18,7 @@ const SlideNext = () => {
   useEffect(() => {
     setInterval(() => {
       Swiper.slideNext(1000);
-    }, 500)
+    }, 3500)
   }, []);
 
   return <div></div>
