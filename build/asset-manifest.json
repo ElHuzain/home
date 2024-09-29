@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.68a33174.css",
+    "main.js": "./static/js/main.d8e2fffc.js",
+    "static/media/KodoRestaurant2.jpg": "./static/media/KodoRestaurant2.de6838cf04d74d4e9c1f.jpg",
+    "static/media/2.jpg": "./static/media/2.99d2a150980aac82cf1e.jpg",
+    "static/media/Villa.jpeg": "./static/media/Villa.1f248c8e108721101ed6.jpeg",
+    "static/media/6.jpg": "./static/media/6.0599cefd4ae684b8e637.jpg",
+    "static/media/3.jpg": "./static/media/3.7d13e65af95a09b7a8ef.jpg",
+    "static/media/4.jpg": "./static/media/4.830e2410701fdb45036e.jpg",
+    "static/media/5.jpg": "./static/media/5.7780c99b50667cdb8034.jpg",
+    "static/media/7.jpg": "./static/media/7.902e7906c488a33c66ff.jpg",
+    "static/media/1.jpg": "./static/media/1.51b357e460dc4f3d66fe.jpg",
+    "static/media/8.jpg": "./static/media/8.3c20d4701dbbe8e1b8ec.jpg",
+    "index.html": "./index.html",
+    "main.68a33174.css.map": "./static/css/main.68a33174.css.map",
+    "main.d8e2fffc.js.map": "./static/js/main.d8e2fffc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68a33174.css",
+    "static/js/main.d8e2fffc.js"
+  ]
+}
