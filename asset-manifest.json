@@ -1,23 +1,33 @@
 {
   "files": {
-    "main.css": "/office-landing-page/static/css/main.68a33174.css",
-    "main.js": "/office-landing-page/static/js/main.a16603f7.js",
-    "static/media/KodoRestaurant2.jpg": "/office-landing-page/static/media/KodoRestaurant2.de6838cf04d74d4e9c1f.jpg",
-    "static/media/2.jpg": "/office-landing-page/static/media/2.99d2a150980aac82cf1e.jpg",
-    "static/media/Villa.jpeg": "/office-landing-page/static/media/Villa.1f248c8e108721101ed6.jpeg",
-    "static/media/6.jpg": "/office-landing-page/static/media/6.0599cefd4ae684b8e637.jpg",
-    "static/media/3.jpg": "/office-landing-page/static/media/3.7d13e65af95a09b7a8ef.jpg",
-    "static/media/4.jpg": "/office-landing-page/static/media/4.830e2410701fdb45036e.jpg",
-    "static/media/5.jpg": "/office-landing-page/static/media/5.7780c99b50667cdb8034.jpg",
-    "static/media/7.jpg": "/office-landing-page/static/media/7.902e7906c488a33c66ff.jpg",
-    "static/media/1.jpg": "/office-landing-page/static/media/1.51b357e460dc4f3d66fe.jpg",
-    "static/media/8.jpg": "/office-landing-page/static/media/8.3c20d4701dbbe8e1b8ec.jpg",
-    "index.html": "/office-landing-page/index.html",
-    "main.68a33174.css.map": "/office-landing-page/static/css/main.68a33174.css.map",
-    "main.a16603f7.js.map": "/office-landing-page/static/js/main.a16603f7.js.map"
+    "main.css": "./home/static/css/main.8c821685.css",
+    "main.js": "./home/static/js/main.afa436cc.js",
+    "static/media/KodoRestaurant2.jpg": "./home/static/media/KodoRestaurant2.de6838cf04d74d4e9c1f.jpg",
+    "static/media/2.jpg": "./home/static/media/2.99d2a150980aac82cf1e.jpg",
+    "static/media/Villa.jpeg": "./home/static/media/Villa.1f248c8e108721101ed6.jpeg",
+    "static/media/6.jpg": "./home/static/media/6.0599cefd4ae684b8e637.jpg",
+    "static/media/3.jpg": "./home/static/media/3.7d13e65af95a09b7a8ef.jpg",
+    "static/media/4.jpg": "./home/static/media/4.830e2410701fdb45036e.jpg",
+    "static/media/KUDO10.jpeg": "./home/static/media/KUDO10.6556e649391381f9110c.jpeg",
+    "static/media/KUDO5.jpeg": "./home/static/media/KUDO5.432824f8ac442e186e09.jpeg",
+    "static/media/KUDO2.jpeg": "./home/static/media/KUDO2.e5703bfbf9b7222cc848.jpeg",
+    "static/media/KUDO8.jpeg": "./home/static/media/KUDO8.bc9e8f3a813084d39589.jpeg",
+    "static/media/KUDO1.jpeg": "./home/static/media/KUDO1.4f8df129355b514cc50a.jpeg",
+    "static/media/KUDO4.jpeg": "./home/static/media/KUDO4.5c5e827c3a711b6997cf.jpeg",
+    "static/media/KUDO3.jpeg": "./home/static/media/KUDO3.d75f6aa7a0bdd6cc696d.jpeg",
+    "static/media/KUDO9.jpeg": "./home/static/media/KUDO9.7ad21ba2fbfbd0e12014.jpeg",
+    "static/media/5.jpg": "./home/static/media/5.7780c99b50667cdb8034.jpg",
+    "static/media/7.jpg": "./home/static/media/7.902e7906c488a33c66ff.jpg",
+    "static/media/KUDO7.jpeg": "./home/static/media/KUDO7.01d74f9793ac4c413a42.jpeg",
+    "static/media/KUDO6.jpeg": "./home/static/media/KUDO6.90d80e2e59f604dc8172.jpeg",
+    "static/media/1.jpg": "./home/static/media/1.51b357e460dc4f3d66fe.jpg",
+    "static/media/8.jpg": "./home/static/media/8.3c20d4701dbbe8e1b8ec.jpg",
+    "index.html": "./home/index.html",
+    "main.8c821685.css.map": "./home/static/css/main.8c821685.css.map",
+    "main.afa436cc.js.map": "./home/static/js/main.afa436cc.js.map"
   },
   "entrypoints": [
-    "static/css/main.68a33174.css",
-    "static/js/main.a16603f7.js"
+    "static/css/main.8c821685.css",
+    "static/js/main.afa436cc.js"
   ]
 }
